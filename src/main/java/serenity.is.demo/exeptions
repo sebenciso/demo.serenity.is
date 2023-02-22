@@ -1,0 +1,13 @@
+package serenity.is.demo.exeptions;
+
+public class WebElement {
+    private String text;
+
+    public String getText(String text) {
+        return text;
+    }
+
+    public void setText(String text) {
+        this.text = text;
+    }
+}
